@@ -24,7 +24,4 @@ describe Dice do
     allow(subject).to receive(:rand).and_return(4,2,3,1)
     expect(subject.score(4)).to eq(10)
   end
-  it "returns number of dice specified" do
-    expect(subject.roll(2)).to
-  end
 end
