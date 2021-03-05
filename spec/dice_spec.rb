@@ -12,4 +12,7 @@ describe Dice do
     allow(dice).to receive(:rand).and_return(5)
     expect(dice.roll).to eq(5)
   end
+  it "returns number of dice specified" do
+    expect(subject.roll(2)).to
+  end
 end
